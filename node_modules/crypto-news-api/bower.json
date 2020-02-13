@@ -1,0 +1,29 @@
+{
+  "name": "crypto-news-api",
+  "description": "API to get a crypto newsfeed in your app",
+  "main": "dist/bundle.js",
+  "authors": [
+    "Steven Enamakel <enamakel@cryptocontrol.io>"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "crypto",
+    "news",
+    "api"
+  ],
+  "homepage": "https://github.com/cryptocontrol/nodejs-api",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "qs": "^0.4.8",
+    "isomorphic-fetch": "^2.2.1",
+    "bluebird": "^3.5.1",
+    "debug": "*",
+    "fetch": "whatwg-fetch#^2.0.4"
+  }
+}
